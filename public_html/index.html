@@ -1,0 +1,183 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Projeto Streaming</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/estilo_css.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet"> 
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <style type="text/css">
+ 
+/*Configurações Padrões*/
+ul.menu1, .menu1 li, .menu1 a{ 
+    margin:0; 
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    float: right;
+    background-color: rgb(78,71,71,0.3);
+    text-align: center;
+    
+}
+ul.menu1 ul{ 
+    position:static;
+    display:none;
+    float: right; 
+    opacity: 0%;
+}
+
+.menu1 a:hover{
+    border-bottom: 2px solid greenyellow;
+}
+ 
+/* Configurações nivel 1*/
+ul.menu1{ font-family: 'Open Sans', sans-serif; font-size:15px; border-radius:5px; padding:0 5px;}
+.menu1 li{ float:top; width:auto; position:relative;}
+.menu1 li a{ display:right; padding:0 10px; line-height:45px; height:35px; float:right; transition:all 0.1s ease; }
+ 
+/* Configurações nivel 2*/
+.menu1 li:hover > ul.submenu-1{ display:block; top:45px; left:0; padding:5px; width:100px;}
+.menu1 ul.submenu-1 a{  width:160px; padding:0 20px; border-radius:5px;  }
+ 
+/* Configurações nivel 2*/
+.menu1 li:hover > ul.submenu-2{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
+.menu1 ul.submenu-2 a{  width:160px; padding:0 20px; border-radius:5px; }
+ 
+/* Configurações nivel 3*/
+.menu1 ul.submenu-3 a{  width:160px; padding:0 20px; border-radius:5px; }
+ 
+ 
+/*Configurações de cores*/
+ 
+/*nivel 1*/
+.menu1{background-color:rgb(78,71,71,0.5);  margin-right: auto;}
+.menu1 a{ color:#000;}
+.menu1 li:hover > a{ background-color: rgb(78,71,71,0.5);  color:#fff;}
+ 
+/*nivel 2*/
+.submenu-1{ background:#4e4747; border-bottom: 2px solid greenyellow;}
+.submenu-1 a{color:#fff;}
+.submenu-1 li:hover > a{ background:#666; }
+ 
+/*nivel 3*/
+.submenu-2{ background:#4e4747;}
+.submenu-2 a{color:#fff;}
+.submenu-2 li:hover > a{ background:#4e4747; }
+ 
+/*nivel 3*/
+.submenu-3{ background:#333;}
+.submenu-3 a{color:#fff;}
+.submenu-3 li:hover > a{ background:#000; }
+ 
+ 
+        </style>
+    </head>
+    <body>
+        <div class="login-page">
+            <div class=row>
+                <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4">
+                    <header>
+                        <p>Penny Dreadful</p>
+                        <h4 id="sub1">90% INDICADO / TERROR / 2015 / EUA </h4>
+                    </header>
+
+                </div>
+            </div>
+            <div class="right">
+                <ul class="menu1"> <!-- Esse é o 1 nivel ou o nivel principal -->
+                    <li><a href="#">T3</a>
+                        
+                    </li>
+                    <li><a href="#">T2</a>
+
+                    </li>
+                    <li><a href="#">T1</a>
+                        <ul class="submenu-1">
+                            <li><a href="#">1 Trabalho Noturno</a></li>
+                            <li><a href="#">1 Trabalho Noturno</a></li>
+                            <li><a href="#">1 Trabalho Noturno</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>    
+            <br><br><br><br><br><br><br><br>
+            <div class="footer">
+                <ul class="menu">
+                    <img src="./img/logo-telecine.svg" width="40px" height="40px" align="right"/>
+                    <li>
+                        <a href="#">Geral</a>
+                        <div class="submenu">
+                            <div class="flexcontainers">
+                                <div class="flexitems">
+                                    <img src="./img/add-gray-s.svg">My List
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div>
+                                <div class="flexitems">
+                                    <img src="./img/sad-gray-w.svg">Avaliar
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div>
+                                <div class="flexitems">
+                                    <img src="./img/rec-gray-s.svg">Gravar
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div>
+                                <div class="flexitems">
+                                    <img src="./img/share-gray-s.svg">Compartilhar
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div>
+                                <div class="flexitems">
+                                    <h4 align="left">SINOPSE</h4>
+                                    Contos de personagens clássicos como Drácula, Frankenstein e Dorian Gray <br>estão reunidos nesta série de terror ambientada nas ruas da Londres vitoriana.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Elenco</a>
+                        <div class="submenu">
+                            <div class="flexcontainers">
+                                <div class="flexitems1">
+                                    <p id="ator">Matt Demon</p><br>
+                                    <p id="subator">Mark Watney</p>
+                                </div>
+                                &nbsp;&nbsp;
+                                <div class="flexitems1">
+                                    <p id="ator">Jessica Chastain</p><br>
+                                    <p id="subator">Melissa Lewis</p>
+                                </div>
+                                &nbsp;&nbsp;
+                                <div class="flexitems1">
+                                    <p id="ator">Chiwetel Ejiofor</p><br>
+                                    <p id="subator">Venkal Kappor</p>
+                                </div>
+                                &nbsp;&nbsp;
+                                <div class="flexitems1">
+                                    <p id="ator">Personagem</p><br>
+                                    <p id="subator">Ator ou Atriz</p>
+                                </div>
+                                &nbsp;&nbsp;
+                                <div class="flexitems1">
+                                    <p id="ator">Personagem</p><br>
+                                    <p id="subator">Ator ou Atriz</p>
+                                </div>
+
+                            </div>
+                    </li>
+                    <li>
+                        <a href="">Principais prêmios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

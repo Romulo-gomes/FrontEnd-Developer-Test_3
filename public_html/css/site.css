@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/01/2019, 14:39:30
+    Author     : romulo
+*/
+#bott{
+    margin: auto;
+    min-width: 240px;
+    width: 90%;
+    background-color: aqua;
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.flexcontainer1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.flexcontainer > div{
+    flex: 1 0 160px;
+    width: auto;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-self: center;  
+}
+.flexcontainer1 > div{
+    flex: 1 0 160px;
+    width: auto;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-self: center;
+   
+}
+.flex1{
+   
+    flex: 1 0 160px;
+    width: auto;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-self: center;
+    background-color: burlywood;
+}
+.flex2{
+    
+    flex: 1 0 160px;
+    width: auto;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-self: center;
+    background-color: burlywood;
+}
+.iconeMenu{
+    
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.preco{
+    font-family: Tahoma;  
+    text-align: center;
+}
+.tituloproduto{
+    text-align: center;
+    font-family: Tahoma;
+    min-height:  5em;
+}
+div img{
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+.botao{
+   font-family: Tahoma;  
+   text-align: center;
+   margin-left: 0.5em;
+   margin-right: 0.5em;
+   width: 83%;
+   align-self: auto;
+   justify-content: flex-start;
+   
+}
+.cat{
+    border-bottom: 1px solid black;
+    
+}
+.cat p{
+    font-size: 12;
+    font-family: Tohama;
+    
+}
+form div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: #ECEBEB;
+}
+
+form div label{
+    display: block;
+   background-color: #ECEBEB;
+    width: 7em;
+}
+form div input{
+    flex: 1 0 100px;
+    height: 1.5em;
+}
+form div select{
+    flex: 1 0 200px;
+    height: 2em;
+    width: 1em;
+}
+form div textarea{
+    flex: 1 0 100px;
+    height: 10em;
+    
+}
+form{
+    max-width: 800px;
+    margin: auto;
+    background-color: #ECEBEB;
+}
+form div button{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex: 1 0 100px
+}
